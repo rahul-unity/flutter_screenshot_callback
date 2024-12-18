@@ -35,7 +35,8 @@ android {
         jvmTarget = "21"
     }
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 26
+        targetSdkVersion 35
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
